@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Registration</title>
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <form class="form" id="form">
+        <h1>Registration</h1>
+        <div class="input-form">
+            <input type="text" id="name" placeholder="Name" required>
+            <i class="fas fa-check-circle"> </i>
+            <i class="uncheck"></i>
+
+        </div>
+        <div class="input-form">
+            <input type="password" id="password" placeholder="Password" min="8" max="12" required>
+        </div>
+        <div class="input-form">
+            <input type="email" id="email" placeholder="Email" required>
+        </div>
+        <div class="input-form">
+            <button type="submit" onclick="">Push me</button>
+        </div>
+    </form>
+
+    <div id="error"></div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
